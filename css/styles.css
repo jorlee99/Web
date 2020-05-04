@@ -60,7 +60,7 @@ header>h2 {
     color: white;
     text-align: center;
     font-family: Lato, sans-serif;
-    font-size: 100;
+    font-size: 75;
     text-shadow: -2px 0 grey, 0 2px grey, 2px 0 grey, 0 -2px grey;
     
 }
@@ -158,10 +158,16 @@ body {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
+    margin-inline-start: -100px;
     margin-inline-end: 0px;
     font-family: Lato, sans-serif;
+    min-width: 315;
 }
+
+#printtext{
+    padding-top: 15;
+}
+
 
 #contact{
     background: white;
